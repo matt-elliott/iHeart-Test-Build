@@ -1,0 +1,71 @@
+@import '../../bower_components/bootstrap/dist/css/bootstrap-theme.min.css';
+@import '../../bower_components/bootstrap/dist/css/bootstrap.min.css';
+nav.navbar {
+  background: #6c50a7;
+  min-height: 100px;
+  margin-bottom: 0;
+  border: none 0;
+  border-radius: 0;
+}
+nav.navbar a {
+  color: #fff!important;
+}
+nav.navbar .container-fluid {
+  transform: translateY(30%);
+}
+nav.navbar .navbar-brand {
+  color: #fff;
+  padding: 0;
+}
+nav.navbar .navbar-brand img,
+nav.navbar .navbar-brand h1 {
+  display: inline-block;
+}
+nav.navbar .navbar-brand h1 {
+  font-size: 1.2em;
+}
+nav.navbar .navbar-right a {
+  text-transform: uppercase;
+  font-weight: 300;
+  color: #dfdaed !important;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+}
+.container-fluid {
+  padding: 0 10%;
+}
+.page-header {
+  margin-top: 0;
+}
+#destinations {
+  color: #3e3e3e;
+  margin-bottom: 60px;
+}
+#destinations .thumbnail {
+  padding: 0;
+}
+#destinations .thumbnail img {
+  width: 100%;
+}
+#destinations h2 {
+  margin: 2em 0;
+}
+#destinations .row h3 {
+  color: #3e3e3e;
+  font-size: 1.5em;
+  font-weight: 800;
+}
+#destinations .row h3 span.price {
+  font-size: 0.8em;
+  color: #653eb3;
+  font-weight: 500;
+}
+#destinations .row .btn-primary {
+  background-color: #fb4381;
+  border-color: #fb4381;
+}
+#destinations .row .caption {
+  color: #8c8c8c;
+}
+/* VARIABLES */
