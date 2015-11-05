@@ -1,0 +1,18 @@
+{
+  "name": "bower_components",
+  "homepage": "https://github.com/matt-elliott/iHeart-Test-Build",
+  "description": "",
+  "main": "",
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
