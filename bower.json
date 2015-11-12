@@ -1,0 +1,32 @@
+{
+  "name": "iheart",
+  "homepage": "https://github.com/matt-elliott/iHeart-Test-Build",
+  "description": "package management for test app",
+  "main": [ 
+  	"bower_components/bootstrap/less/bootstrap.less",
+  	"bower_components/bootstrap/dist/css/bootstrap.css",
+  	"bower_components/bootstrap/dist/js/bootstrap.js",
+  	"_scripts/css/styles.css"
+  ],
+  "moduleType": [
+    "amd",
+    "es6",
+    "globals",
+    "node",
+    "yui"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "mustache.js": "mustache#~2.2.0",
+    "velocity": "~1.2.3",
+    "bootstrap": "3.3.5"
+  }
+}
